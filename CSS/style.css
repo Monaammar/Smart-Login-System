@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+.title {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.title h1 {
+  font-size: 2.5rem;
+  color: #17a2b8;
+}
+input{
+    background-color:  #24353f !important;
+    color: #fff !important;
+}
+.title p
+{
+    color: #fff;
+}
+.title a
+{
+    color: #fff;
+}
+#success
+{
+  color: aqua;
+}
+#failed
+{
+  color:red;
+}
+#exist
+{
+  color: fuchsia;
+}
+#signine
+{
+  color: red;
+}
+a{
+  text-decoration: none;
+  list-style: none;}
+.out a{
+  
+  color:#fff
+}

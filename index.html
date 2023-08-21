@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./icofont/icofont/icofont.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container text-center my-5">
+        <div class="title m-auto w-75 p-5">
+          <h1>Smart Login System</h1>
+          <input
+            id="signinemail"
+            class="form-control my-3"
+            placeholder="Enter Your E-mail"
+            type="text"
+          />
+          <input
+            id="signinpassword"
+            class="form-control my-3"
+            placeholder="Enter Your Password"
+            type="password"
+          />
+          <span id="signine" class="d-none">All Inputs Required </span>
+          <button id="signinbtn" class="btn btn-outline-info w-100 my-3"onclick="signIn(this.value,this.value)">
+            Login
+          </button>
+          <p class="signup my-2">
+            Don’t have an account?
+            <a href="index2.html">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/style.js"></script>
+  </body>
+</html>

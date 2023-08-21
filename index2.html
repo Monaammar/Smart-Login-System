@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./icofont/icofont/icofont.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container text-center my-5">
+        <div class="title m-auto w-75 p-5">
+          <h1>Smart Login System</h1>
+          <input
+            id="signupname"
+            class="form-control my-3"
+            placeholder="Enter Your Name"
+            type="text"
+          />
+
+          <input
+            id="signupemail"
+            class="form-control my-3"
+            placeholder="Enter Your E-mail"
+            type="text"
+          />
+          <input
+            id="signuppassword"
+            class="form-control my-3"
+            placeholder="Enter Password"
+            type="password"
+          />
+       
+            <span id="success" class="success d-none">
+              Success
+            </span>
+            <span id="failed" class="failed d-none">
+             All Inputs Required
+            </span>
+            <span id="exist" class="exist d-none ">
+              Email already Exists
+             </span>
+             <span id="regex" class="regex d-none ">
+                Email Not Valid
+             </span>
+        
+          <button id="signupbtn" class="btn btn-outline-info w-100 my-3"onclick="signUp()">
+            Sign Up
+          </button>
+        
+          <p class="signup my-2">
+            you have an account?
+            <a href="index.html">Signin</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/style.js"></script>
+  </body>
+</html>
